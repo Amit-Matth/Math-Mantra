@@ -48,7 +48,6 @@ public class RingBellFragment extends Fragment {
         randomValueGenerator = new RandomValueGenerator();
         tts = new TTSUtility(requireContext());
         startGame();
-        binding.bellAnimationView.setOnClickListener(v -> ringBell());
         return binding.getRoot();
     }
 
